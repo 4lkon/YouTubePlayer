@@ -9,6 +9,18 @@
     >
 
 
+    <com.google.android.youtube.player.YouTubePlayerView
+
+        android:id="@+id/youTubePlayerView"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="1dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
@@ -17,17 +29,5 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
 
-    <com.google.android.youtube.player.YouTubePlayerView
 
-        android:id="@+id/youTubePlayerView"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_above="@+id/button"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        tools:layout_editor_absoluteX="-2dp"
-        tools:layout_editor_absoluteY="1dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
 </RelativeLayout>

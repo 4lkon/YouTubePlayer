@@ -1,5 +1,7 @@
 package com.example.suchy.youtubeplayer;
 
+import android.content.Intent;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -13,6 +15,8 @@ import com.google.android.youtube.player.YouTubePlayerView;
 import static android.view.View.Y;
 
 public class MainActivity extends YouTubeBaseActivity {
+
+    private static int SPLASH_TIME_OUT = 4000;
 
     Button b;
     private YouTubePlayerView youTubePlayerView;
