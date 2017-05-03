@@ -23,7 +23,7 @@ public class MainActivity extends YouTubeBaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-       youTubePlayerView = (YouTubePlayerView) findViewById(R.id.view);
+       youTubePlayerView = (YouTubePlayerView) findViewById(R.id.youTubePlayerView);
         onInitializedListener = new YouTubePlayer.OnInitializedListener() {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
